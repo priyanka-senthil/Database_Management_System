@@ -1,0 +1,51 @@
+Sup_ID,Material_ID,Sup_Name,Sup_Address,Sup_Type,Order_Type,Quantity_Supplied,Record_Number,Pur_ID
+SUP_3932,MAT_70,Walter Serrano,"Ap #404-6194 Ultricies Rd.,San Diego,Ohio,United States",Distributor,Express,38,93743433,PR 101
+SUP_4569,MAT_63,Cade Kaufman,"Ap #236-3569 Dolor Street,Kailua,Delaware,United States",Distributor,Priority,72,73885694,PR 102
+SUP_4130,MAT_71,Jayme Carey,"Ap #357-653 Donec St.,Annapolis,Connecticut,United States",Vendor,Standard,72,44851841,PR 103
+SUP_4444,MAT_40,Henry Gaines,"5158 Ullamcorper. Avenue,Newark,Wyoming,United States",Distributor,Express,73,27532567,PR 104
+SUP_3950,MAT_37,Dominic Ayala,"Ap #814-3601 Purus, St.,Tampa,Illinois,United States",Retailer,Express,61,58769378,PR 105
+SUP_4288,MAT_57,Beck Pugh,"P.O. Box 407, 2439 Elit, Av.,Henderson,Mississippi,United States",Vendor,Priority,16,31731077,PR 106
+SUP_3866,MAT_61,Sheila Morin,"Ap #979-1920 Egestas Street,Dallas,Kentucky,United States",Retailer,Express,22,64449494,PR 107
+SUP_3695,MAT_18,Brian Deleon,"6309 Aliquet Street,Frankfort,Michigan,United States",Distributor,Priority,37,77347584,PR 108
+SUP_4017,MAT_9,Fay Thomas,"9462 Sem Street,Philadelphia,California,United States",Wholesaler,Standard,93,84622203,PR 109
+SUP_3283,MAT_96,Bruno Holland,"235-3619 Orci Avenue,Essex,Alabama,United States",Wholesaler,Standard,32,78692967,PR 110
+SUP_4281,MAT_35,Lewis Price,"Ap #822-4599 Libero Av.,Kaneohe,Kentucky,United States",Vendor,Express,76,43457486,PR 111
+SUP_4761,MAT_45,Lacey Jones,"523-9967 Curae St.,Bear,Indiana,United States",Vendor,Express,96,67346447,PR 112
+SUP_3727,MAT_58,Nicole Fulton,"P.O. Box 298, 7874 Non, Ave,Springfield,Michigan,United States",Distributor,Standard,23,73986897,PR 113
+SUP_3545,MAT_74,MacKenzie Solis,"Ap #284-5882 Pellentesque. St.,Wilmington,Georgia,United States",Retailer,Standard,44,1274151,PR 114
+SUP_4040,MAT_36,Theodore Randolph,"Ap #843-9107 Ipsum Street,Kailua,Texas,United States",Distributor,Express,24,59138715,PR 115
+SUP_3034,MAT_3,Constance Thornton,"Ap #522-5145 Arcu. Ave,Great Falls,Kansas,United States",Retailer,Express,59,72215097,PR 116
+SUP_4094,MAT_91,Gretchen Adkins,"6403 Non Avenue,Cheyenne,Montana,United States",Retailer,Express,26,6117847,PR 117
+SUP_4181,MAT_59,Kareem Luna,"Ap #905-3024 Pellentesque. Road,Dover,California,United States",Wholesaler,Express,78,88494655,PR 118
+SUP_3736,MAT_79,Henry Watts,"Ap #192-5407 Mauris, Rd.,Detroit,Washington,United States",Wholesaler,Standard,95,21632711,PR 119
+SUP_4712,MAT_37,Sonia Bond,"Ap #873-8138 Lorem, St.,Burlington,Washington,United States",Vendor,Priority,77,58626167,PR 120
+SUP_4223,MAT_89,Ursa Newton,"496 In, Ave,Las Vegas,Indiana,United States",Retailer,Standard,77,80061038,PR 121
+SUP_4698,MAT_87,Aline Tate,"7200 Ultricies Road,Rochester,Hawaii,United States",Retailer,Standard,58,6011795,PR 122
+SUP_3337,MAT_7,Lavinia Burton,"P.O. Box 324, 2569 Dictum Rd.,Kailua,Wyoming,United States",Wholesaler,Express,34,73776120,PR 123
+SUP_3444,MAT_43,Jerry Wilkerson,"811-9634 Id Rd.,Biloxi,Florida,United States",Wholesaler,Express,89,74326742,PR 124
+SUP_3929,MAT_80,Tate Maxwell,"Ap #480-359 Diam Road,Southaven,Utah,United States",Wholesaler,Standard,21,18723870,PR 125
+SUP_4293,MAT_32,Rachel Glenn,"6067 Quam Street,Metairie,Connecticut,United States",Wholesaler,Priority,26,82787353,PR 126
+SUP_3701,MAT_26,Myra Buchanan,"Ap #956-5866 Mauris St.,Sandy,Utah,United States",Vendor,Priority,70,87761815,PR 127
+SUP_4091,MAT_12,Drake Bryan,"Ap #843-2515 A, Ave,Newark,Mississippi,United States",Distributor,Express,22,88659359,PR 128
+SUP_4462,MAT_43,Brenna Nicholson,"Ap #542-1055 Odio St.,Salem,Maine,United States",Retailer,Standard,17,77348124,PR 129
+SUP_4388,MAT_82,Unity Camacho,"Ap #680-5418 Congue Road,Idaho Falls,Georgia,United States",Retailer,Priority,54,4431164,PR 130
+SUP_3855,MAT_84,Kareem Clayton,"Ap #786-3844 Massa. Rd.,Broken Arrow,Delaware,United States",Distributor,Express,35,77665624,PR 131
+SUP_3535,MAT_66,Omar Sharpe,"Ap #436-8436 Ac Ave,Houston,Oklahoma,United States",Distributor,Priority,99,20560781,PR 132
+SUP_4411,MAT_69,Cleo Bailey,"240-9437 Eu, Rd.,Duluth,Florida,United States",Retailer,Standard,28,59476941,PR 133
+SUP_4160,MAT_29,Ila Carpenter,"150-2715 Arcu. St.,Portland,Kentucky,United States",Wholesaler,Express,41,3688753,PR 134
+SUP_4059,MAT_90,Thaddeus Kemp,"601-5860 Dapibus Avenue,Springfield,Ohio,United States",Retailer,Express,57,87758327,PR 135
+SUP_4696,MAT_20,Cade Davidson,"P.O. Box 362, 3978 Purus Rd.,Lakewood,Montana,United States",Retailer,Priority,98,81309434,PR 136
+SUP_4467,MAT_9,Ramona Chavez,"Ap #245-3328 Malesuada Rd.,Georgia,Idaho,United States",Wholesaler,Express,70,45551130,PR 137
+SUP_3575,MAT_5,Lani Gilliam,"Ap #227-8619 Et St.,South Burlington,Virginia,United States",Vendor,Standard,59,13548457,PR 138
+SUP_4007,MAT_44,Carol Pennington,"Ap #568-5701 A, Road,Green Bay,Ohio,United States",Retailer,Standard,36,49571933,PR 139
+SUP_4885,MAT_5,Tucker Mcintosh,"707-2136 Lobortis St.,Norman,Washington,United States",Vendor,Express,28,31415644,PR 140
+SUP_4724,MAT_26,Velma Holmes,"P.O. Box 220, 4665 Dictum St.,Fresno,Georgia,United States",Distributor,Priority,65,16463357,PR 141
+SUP_3968,MAT_49,Shay Adkins,"Ap #473-3067 Mollis Street,Kearney,Pennsylvania,United States",Vendor,Priority,78,14794659,PR 142
+SUP_4647,MAT_28,Halee Cortez,"599-279 Nulla Avenue,Hattiesburg,Hawaii,United States",Retailer,Standard,41,18132967,PR 143
+SUP_3747,MAT_50,Chastity Haynes,"Ap #106-9647 Vestibulum Ave,Duluth,Indiana,United States",Retailer,Priority,88,69782375,PR 144
+SUP_3773,MAT_35,Haley Allison,"P.O. Box 894, 4368 Sem Road,College,Iowa,United States",Retailer,Express,72,26831618,PR 145
+SUP_4117,MAT_22,Berk Mccarthy,"848-1342 Dapibus Rd.,Pike Creek,Tennessee,United States",Vendor,Express,53,34359476,PR 146
+SUP_4430,MAT_84,Quin Ball,"Ap #982-2009 Lectus, St.,Atlanta,Nebraska,United States",Retailer,Express,70,95657505,PR 147
+SUP_3914,MAT_27,Keaton Kirby,"Ap #763-436 Erat St.,Atlanta,Vermont,United States",Retailer,Express,56,14354951,PR 148
+SUP_3378,MAT_81,Hashim Vaughn,"209-3808 In Road,Idaho Falls,Ohio,United States",Retailer,Priority,95,83719201,PR 149
+SUP_4780,MAT_70,Celeste Jarvis,"675-5790 Donec St.,Grand Rapids,Nebraska,United States",Distributor,Standard,71,21124457,PR 150
