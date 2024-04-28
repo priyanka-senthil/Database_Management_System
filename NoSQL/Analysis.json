@@ -1,0 +1,121 @@
+#Query - 1 Count the number of employees in Stock Handling Team
+
+db.stock_handling_team.aggregate([ {
+        $group: {
+            _id: "Stock Handling Team",
+            Num_Employees: {
+                $sum: 1
+            }
+        }
+    }
+    ])
+
+
+Query - 2 Finding the customer ids from Virginia, Vermont and Kentucky who #received the damaged product.
+
+db.damages.find({
+    Vendor_Nr: {
+        $in: db.repairer.distinct("Vendor_Nr", {
+            Address: {
+                $regex: /virginia|verm|kentu/i
+            }
+        })
+    }
+}, {
+    Cust_ID: 1,
+    _id: 0
+});
+
+
+#Query - 3 Query to retrieve the top 5 locations in the vault, sorted by #the total quantity of materials stored in each location
+
+db.vault.aggregate([
+ {
+ $group: {
+ _id: "$Location",
+ Total_Material_Quantity: 
+{ $sum: "$Material_Quantity" }
+ }
+ },
+ {
+ $sort: 
+{ Total_Material_Quantity: -1 }
+ },
+{
+ $limit: 5
+ }
+])
+
+
+#Query - 4 Query to retrieve the top 5 purchases along with the supplier's #name and sorts the results based on the total price in descending order.
+
+db.supplier.aggregate([
+ {
+ $lookup: {
+ from: "purchase_history",
+ localField: "Pur_id",
+ foreignField: "Pur_ID",
+ as: "purchase_info"
+ }
+ },
+ {
+ $unwind: "$purchase_info"
+ },
+ {
+ $project: {
+ _id: 0,
+ "Supplier Name": 
+"$Sup_Name",
+ "Purchase ID": "$Pur_id",
+ "Total Price": 
+"$purchase_info.Total_Price"
+ }
+ },
+ {
+ $sort: { "Total Price": -1 }
+ },
+ {
+ $limit: 5
+ }
+])
+
+
+#Query - 5 Query to retrieve the top 5 average quality ratings for #suppliers, along with their names and corresponding dates
+
+
+db.quality_check_recorder.aggregate([
+ {
+ $lookup: {
+ from: "supplier",
+ localField: "Record_Number",
+ foreignField: "Record_Number",
+ as: "supplier"
+ }
+ },
+ {
+ $unwind: "$supplier"
+ },
+ {
+ $group: {
+ _id: { Sup_Name: 
+"$supplier.Sup_Name", Date: 
+"$Date" },
+ Avg_Quality_Rating: { $avg: 
+"$Quality_Rating" }
+ }
+ },
+ {
+ $sort: { Avg_Quality_Rating: -1 }
+ },
+ {
+ $limit: 5
+ },
+ {
+ $project: {
+ _id: 0,
+ Sup_Name: "$_id.Sup_Name",
+ Date: "$_id.Date",
+ Avg_Quality_Rating: 1
+ }
+ }
+])
